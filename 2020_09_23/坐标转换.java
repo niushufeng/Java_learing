@@ -3,8 +3,8 @@ package m;
 class Point{
 	double x,y;
 	public void setXY(double a,double b){
-		x=a;
-		y=b;
+		x  = a;
+		y  = b;
 	}
 	public double getX(){
 		return x;
@@ -18,7 +18,7 @@ class Point{
 };
 public class javaTest{
 	public static void main(String[] args){
-		Point p1=new Point();
+		Point p1 = new Point();
 		p1.disp();
 		p1.setXY(3.2,5.6);
 		p1.disp();
