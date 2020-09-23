@@ -4,9 +4,9 @@ public class m123 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int sum = 0,i=100;
+		int sum = 0,i = 100;
     	do{
-    		i++;
+    		i ++;
     		sum += i;
     	} while(i < 200);
 	
