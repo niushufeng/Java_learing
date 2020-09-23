@@ -6,25 +6,25 @@ public class m03 {
 		// TODO Auto-generated method stub
 
 			
-		 int total=0;
+		 int total = 0;
 
-	        for(int i=1;i<=10;i++){
+	        for(int i = 1;i <= 10;i ++){
 
-	            int cTotal=1;
+	            int cTotal = 1;
 
-	            for(int j=1;j<=i;j++){
+	            for(int j = 1;j <= i;j ++){
 
-	                cTotal*=j;
+	                cTotal *= j;
 
 	            }
 
-	            total+=cTotal;
+	            total += cTotal;
 
-	            System.out.println(i+"!="+cTotal);
+	            System.out.println(i + "!=" + cTotal);
 
 	        }
 
-	        System.out.println("1!+2!+3!+...+10!的阶乘和是："+total);
+	        System.out.println("1!+2!+3!+...+10!的阶乘和是：" + total);
 		// TODO Auto-generated method stub
 
 	}
