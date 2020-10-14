@@ -20,19 +20,19 @@ public class Student {
 		this.age = age;
 	}
 
-	public int getStudentId(){
+	public int getStudentId(){		//获得学号
 	   return student_id;
 	}
 	
-	public int getClassId(){
+	public int getClassId(){		//获得班级
 	   return class_id;
 	}
 
-	public String getName(){
+	public String getName(){		//获得姓名
 	   return name;
 	}
 
-	public String getGender(){
+	public String getGender(){		//获得性别
 	   if (gender)
 	   {
 		   return "male";
@@ -41,18 +41,18 @@ public class Student {
 	   }
 	}
 
-	public int getAge(){
+	public int getAge(){			//获得年龄
 	   return age;
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Student testMan = new Student(1831050017,1801,"luoxiang",false,45);
-		System.out.println(testMan.getStudentId());
-		System.out.println(testMan.getClassId());
-		System.out.println(testMan.getName());
-		System.out.println(testMan.getGender());
-		System.out.println(testMan.getAge());
+		Student testMan = new Student(1831050017,1801,"luoxiang",false,25);		//输入参数
+		System.out.println("学号：" + testMan.getStudentId());
+		System.out.println("班级：" + testMan.getClassId());
+		System.out.println("姓名：" + testMan.getName());
+		System.out.println("性别：" + testMan.getGender());
+		System.out.println("年龄：" + testMan.getAge());
 	}
 
 }
