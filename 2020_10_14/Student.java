@@ -4,11 +4,18 @@
  * 方法有“获得学号”、“获得班号”、“获得性别”、“获得姓名”、
  * “获得年龄”、“获得年龄”。
  * */
-
 package m101;
 
 public class Student1 {
-
+	private int Student_id;		//学号
+	private int class_id;	//班号
+	private String name;	// 姓名
+	private boolean gender;		//性别
+	private int age;	//年龄
+	
+	Student1(int studet_id, int class_id, String name, boolean gender,int age){
+		
+	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
